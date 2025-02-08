@@ -1,9 +1,7 @@
-// Toggle the navigation menu on mobile devices
 document.getElementById("menu-toggle").addEventListener("click", function() {
     document.querySelector(".nav-links").classList.toggle("active");
 });
 
-// Handle subscription form submission
 document.getElementById("subscribe-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
